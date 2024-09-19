@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+     <h1 class="heading">Tic Tac Toe</h1>
+     <div class="container">
+    <form class="container1">
+        <input type="button" id="r1c1" class="cells" value="" onclick="resultFunction('r1c1')">
+        <input type="button" id="r1c2" class="cells" value="" onclick="resultFunction('r1c2')">
+        <input type="button" id="r1c3" class="cells" value="" onclick="resultFunction('r1c3')">
+        <input type="button" id="r2c1" class="cells" value="" onclick="resultFunction('r2c1')">
+        <input type="button" id="r2c2" class="cells" value="" onclick="resultFunction('r2c2')">
+        <input type="button" id="r2c3" class="cells" value="" onclick="resultFunction('r2c3')">
+        <input type="button" id="r3c1" class="cells" value="" onclick="resultFunction('r3c1')">
+        <input type="button" id="r3c2" class="cells" value="" onclick="resultFunction('r3c2')">
+        <input type="button" id="r3c3" class="cells" value="" onclick="resultFunction('r3c3')">
+    </form>
+</div>
+<p id="winner"></p>
+    <div class="restartBtn"><input type="button" class="" value="RestartGame" onclick="restartFunction()"></div>
+    <script src="ttt.js">
+      </script>
+</body>
+</html>
