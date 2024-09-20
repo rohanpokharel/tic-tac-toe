@@ -68,8 +68,8 @@
 
 }
 
-@media (max-width: 250px){
-   container1{ width: 220px;
+@media (max-width: 300px){
+   container1{ width: 270px;
              }
     .heading{
         font-size: 35px;
