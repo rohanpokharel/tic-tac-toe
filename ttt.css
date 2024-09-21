@@ -11,10 +11,9 @@
     width: 306px;
     margin: 10px 0 0 0px;
     grid-template-columns: 100px 100px 100px;
-    background-color: black;
+    background-color: rgb(119, 119, 119);
     height: 306px;
-    outline: 10px solid grey;
-    outline-offset: 15px;
+    padding: 25px;
 
 
 }
@@ -45,8 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    
+    margin-bottom: 40px;    
 }
 .restartBtn input{
     border: none;
@@ -68,11 +66,16 @@
 
 }
 
-@media screen and (max-width: 300px){
-   .container1{
-       width: 170px;
-             }
-    .heading{
-        font-size: 35px;
-    }
+@media  (max-width: 450px){
+         .container1{
+            width: 100%;
+            grid-template-columns: repeat(3,1fr);
+            height: auto;
+
+         }
+         .container .cells{
+        }
+         .heading{
+            font-size: 35px;
+         }
 }
