@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     margin: 40px;
-    font-size: 50px;
+    font-size: 20px;
 }
 .cells{
     cursor: pointer;
